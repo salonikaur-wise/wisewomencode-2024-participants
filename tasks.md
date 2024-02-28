@@ -108,7 +108,7 @@ Now the fun part begins! Let's analyze some data.
 
 #### Fee Analysis
 
-1. Evaluate the distribution of transaction fees across different currency pairs.
+1. Evaluate the total transaction fees across different currency pairs.
 
 2. Calculate the average transaction fee as a percentage of the transaction amount for each currency pair.
 

@@ -7,13 +7,7 @@ See [Tasks](tasks.md)
 
 ## Getting Started
 
-### First, run the development server:
-
-```bash
-npm run dev
-```
-
-### Then start the docker containers for DB, backend and frontend.
+### First start the docker containers for DB, backend and frontend.
 Nextjs development mode by default will already have hot-reloading for frontend pages.
 The development docker will use nodemon to ensure hot-reloading for the api routes too.
 ```bash
