@@ -14,6 +14,9 @@ As a Special Product Engineer at Wise, your mission is to enhance the target amo
 - Run the tests to ensure they are running correctly
 - Open up the frontend page for the calculator. Is it working correctly?
 
+## Formula to calculate target amount: 
+### targetAmount = (sourceAmount - wiseFees) x conversionRate
+
 ### Tips
 
 Go to localhost:3000/calculator. Why is it not working? 
