@@ -4,10 +4,11 @@
 
 ### Fix the calculator
 
+Calculator Page:
+![alt text](<Screenshot 2024-03-08 at 11.25.30 AM.png>)
+
 As a Special Product Engineer at Wise, your mission is to enhance the target amount calculation for Wise transfers. The target amount represents the final amount that the recipient receives after accounting for all fees and charges applied to the transfer.
 
-- Run all tests, see which tests fail
-- Run frontend tests for calculator at "frontend/calculator"
 - Run backend tests for calculator at "api/calculator"
 - Fix the relevant code - Find the TODO
 - Run the tests to ensure they are running correctly
@@ -18,16 +19,6 @@ As a Special Product Engineer at Wise, your mission is to enhance the target amo
 Go to localhost:3000/calculator. Why is it not working? 
 
 - What can you use in the Google Chrome developer tools to figure out what is wrong? Click on the Network tab.
-- Is there any error trace or logging on the backend server?
-
-The API for calculator expects a POST request. Is this a RESTful practice? Does this follow REST principles?
-
-Reading materials for REST APIs:
-
-- [What is a REST API? Video](https://www.youtube.com/watch?v=lsMQRaeKNDk&t=10s)
-- [Is it ok to POST without creating resource](https://stackoverflow.com/questions/21473437/restful-when-is-it-ok-to-post-without-creating-a-resource-on-server)
-- [REST API design best practices](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
-
 
 How do we make a POST request to the backend server?
 
@@ -61,6 +52,8 @@ Does the API work as expected?
 
 ### Fix the transfer details page
 
+![alt text](<Screenshot 2024-03-08 at 11.25.02 AM.png>)
+
 For transfers that are already created, retrieve the pricing used from the pricing table. Fix our transfers API!
 
 Go to localhost:3000/transfers/1
@@ -76,6 +69,7 @@ After fixing the API, there is still something missing from the frontend. The fe
 
 - Run all frontend tests
 - Run only the "frontend/transfers" tests
+- Can you make it to 2 decimal places?
 
 
 ### Tips
