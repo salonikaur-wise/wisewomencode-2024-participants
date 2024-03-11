@@ -1,5 +1,5 @@
-# wwc-apac-2024
-Workshop for Wise Woman Code APAC 2024
+# wwc-bud-2024
+Workshop for Wise Woman Code Budapest 2024
 
 ## Tasks for the workshop
 
@@ -63,7 +63,7 @@ DBeaver is one of the options you could use to connect to the database.
 Host: localhost
 Port: 5432
 Databse: wise
-Username: wwc-apac
+Username: wwc-bud
 Password: STRONGpass
 
 

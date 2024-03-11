@@ -22,9 +22,9 @@ export default function HomePage() {
             <p></p>
             <div>
             <Stack spacing={2}>
-            <Button variant="outlined" href='/transfers/1'>Transfer 1: Mabel to Saloni</Button>
-            <Button variant="outlined" href='/transfers/2'>Transfer 2: Mabel to Justina</Button>
-            <Button variant="outlined" href='/transfers/3'>Transfer 3: Mabel to Saloni</Button>
+            <Button variant="outlined" href='/transfers/1'>Transfer 1: David to Dominik</Button>
+            <Button variant="outlined" href='/transfers/2'>Transfer 2: David to Gina</Button>
+            <Button variant="outlined" href='/transfers/3'>Transfer 3: David to Tibi</Button>
             </Stack>
             </div>
           </Grid>
