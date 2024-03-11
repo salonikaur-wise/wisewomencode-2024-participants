@@ -27,7 +27,7 @@ export async function POST(req) {
     })
   }
 
-  //Task 1: Calculate Target Amount correctly using rateResponse.rate
+  //TODO Task 1: Calculate Target Amount correctly using rateResponse.rate
   const fee = (1 / 100) * sourceAmount; // Assume we charge a fixed 1% fee here
 
   return NextResponse.json({
